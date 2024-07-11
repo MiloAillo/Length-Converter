@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Length Converter</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <h1 class="header">Length Converter</h1>
+  <p class="description">Select the length in a drop down list and type the value in the input box field to convert the value</p>
+  
+  <input type="number" id="inputValue" placeholder="input"></input>
+  <span class="placeholderDivider"> = </span>
+  <input type="text" id="outputValue" placeholder="output" readonly></input>
+  
+  <br>
+  
+  <select id="inputLength" class="inputLength">
+    <option value="centimeter">Centimeter</option>
+    <option value="meter">Meter</option>
+    <option value="kilometer">Kilometer</option>
+  </select>
+  
+<span class="dropDownDivider"> to </span>
+  
+  <select id="outputLength" class="outputLength">
+    <option value="centimeter">Centimeter</option>
+    <option value="meter">Meter</option>
+    <option value="kilometer">Kilometer</option>
+  </select>
+
+  <p class="watermark">Made by AilloMilo</p>
+  <script src="script.js"></script>
+</body>
+
+</html>
